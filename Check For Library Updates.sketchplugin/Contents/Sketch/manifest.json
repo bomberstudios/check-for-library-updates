@@ -1,0 +1,24 @@
+{
+  "author" : "Ale Muñoz",
+  "description" : "Checks for Library updates in Sketch Cloud",
+  "authorEmail" : "ale@sketchapp.com",
+  "identifier" : "com.sketchapp.plugins.check-for-library-updates",
+  "version" : "1.0",
+  "name" : "Check For Library Updates",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Check For Library Updates",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "title" : "Check For Library Updates",
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ]
+  }
+}
